@@ -1,10 +1,29 @@
 .jumbotron {
     margin: 0;
     padding: 20px;
-    background-color: gray;
+    background-color: #201d1dff;
 }
 
 .title{
-    color:purple;
+    color:#7a0000ff;
 }
 
+.subtext{
+    color:#7a0000ff;
+}
+
+body{
+    background-color:#080808ff;
+}
+
+.breadcrumb{
+    background-color: #361707ff;
+}
+
+
+/* CSS HEX 
+--eerie-black: #201d1dff;
+--black-bean: #361707ff;
+--barn-red: #7a0000ff;
+--rich-black-fogra-39: #080808ff; 
+*/
