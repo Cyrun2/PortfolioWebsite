@@ -46,20 +46,21 @@ body{
 
 .speedrunList{
     color: #0892d0;
-    position: relative;
-    padding-left: 200px;
 }
 
 .platinum{
-    margin-left: -200px;
+    margin-right: 215px;
 }
 
 .heartGold{
-    margin-left: -184px;
+    margin-right: 200px;
 }
 
 .heartGoldPic{
     width: 100px;
     height: 100px;
-    border: 100px;
+}
+
+.gameListWidth{
+    border: 500px;
 }
