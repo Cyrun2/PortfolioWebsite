@@ -1,3 +1,10 @@
+/* CSS HEX 
+--eerie-black: #201d1dff;
+--black-bean: #361707ff;
+--barn-red: #7a0000ff;
+--rich-black-fogra-39: #080808ff; 
+*/
+
 .jumbotron {
     margin: 0;
     padding: 20px;
@@ -20,10 +27,39 @@ body{
     background-color: #361707ff;
 }
 
+.twitch{
+    color: purple;
+}
 
-/* CSS HEX 
---eerie-black: #201d1dff;
---black-bean: #361707ff;
---barn-red: #7a0000ff;
---rich-black-fogra-39: #080808ff; 
-*/
+.btn-twitch{
+    color: purple;
+}
+
+.card-text{
+    color: #0892d0;
+}
+
+.platPic {
+    width: 100px;
+    height: 100px;
+}
+
+.speedrunList{
+    color: #0892d0;
+    position: relative;
+    padding-left: 200px;
+}
+
+.platinum{
+    margin-left: -200px;
+}
+
+.heartGold{
+    margin-left: -184px;
+}
+
+.heartGoldPic{
+    width: 100px;
+    height: 100px;
+    border: 100px;
+}
