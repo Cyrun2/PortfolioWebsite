@@ -5,23 +5,30 @@
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch css/ -o css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cyrun2/PortfolioWebsite.git"
   },
-  "author": "",
+  "author": "Spencer Douglas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Cyrun2/PortfolioWebsite/issues"
   },
   "homepage": "https://github.com/Cyrun2/PortfolioWebsite#readme",
-  "description": "",
+  "description": "Portfolio Website",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "onchange": "^7.1.0",
+    "parallelshell": "^3.0.2",
+    "sass": "^1.37.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3"
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "animejs": "^3.2.1"
   }
 }

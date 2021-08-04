@@ -8,9 +8,8 @@
     <title>Spencer's Portfolio</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </link>
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">        
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"></link>        
     <link rel="stylesheet" href="css/style.css"></link>
 </head>
 
@@ -30,11 +29,28 @@
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <a href="#" class="navbar-brand">Experience</a>
-        <a href="#" class="navbar-brand active">Hobbies</a>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Hobbies <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 
     <div class="container">
         <div class="row">
@@ -100,6 +116,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="/node_modules/animejs/lib/anime.min.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>

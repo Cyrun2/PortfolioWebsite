@@ -5,28 +5,28 @@
 --rich-black-fogra-39: #080808ff; 
 */
 
+$color-background: #201d1d;
+$color-breadcrumb:#361707;
+$color-red:#7a0000;
+$lighterDark:#080808;
+
+
 .jumbotron {
     margin: 0;
     padding: 20px;
-    background-color: #201d1dff;
+    background-color: $color-background;
 }
 
 .title{
-    color:white;
+    color: $color-red;
 }
 
 .subtext{
-    color:white; 
+    color:$color-red; 
 }
 
 body{
-    background-color:#080808;
-}
-
-#welcome{
-    background-color: white;
-    width: 500px;
-    
+    background-color:#080808ff;
 }
 
 .home{
