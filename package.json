@@ -6,7 +6,7 @@
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "sass --watch css/ -o css/",
+    "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
@@ -23,9 +23,9 @@
   "description": "Portfolio Website",
   "devDependencies": {
     "lite-server": "^2.6.1",
+    "node-sass": "^4.14.1",
     "onchange": "^7.1.0",
-    "parallelshell": "^3.0.2",
-    "sass": "^1.37.2"
+    "parallelshell": "^3.0.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",

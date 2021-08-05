@@ -25,8 +25,7 @@ body{
 
 #welcome{
     background-color: white;
-    width: 500px;
-    
+    width: 750px;
 }
 
 .home{
@@ -81,4 +80,8 @@ body{
 
 .gameListWidth{
     border: 500px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
 }
