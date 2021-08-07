@@ -45,7 +45,8 @@ body {
   height: 100px; }
 
 .speedrunList {
-  color: #0892d0; }
+  color: #0892d0;
+font-size: 18px; }
 
 .platinum {
   margin-right: 215px; }
@@ -71,4 +72,12 @@ body {
 
 #portLogo{
   height:50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
 }
