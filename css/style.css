@@ -4,84 +4,67 @@
 --barn-red: #7a0000ff;
 --rich-black-fogra-39: #080808ff; 
 */
-
 .jumbotron {
-    margin: 0;
-    padding: 20px;
-    background-color: #201d1dff;
-}
+  margin: 0;
+  padding: 20px;
+  background-color: #201d1d; }
 
-.title{
-    color:white;
-}
+.title {
+  color: #ffffff; }
 
-.subtext{
-    color:white; 
-}
+.subtext {
+  color: #ffffff; }
 
-body{
-    background-color:#080808;
-}
+body {
+  background-color: #080808ff; }
 
-#welcome{
-    background-color: white;
-    width: 750px;
-}
+.home {
+  color: grey; }
 
-.home{
-    color: grey;
-}
+.breadcrumb {
+  background-color: #361707ff; }
 
-.breadcrumb{
-    background-color: #361707ff;
-}
-
-.breadcrumb-item a{
-    color: white;
-}
+.breadcrumb-item a {
+  color: white; }
 
 .card {
-    background-color: #201d1dff;
-}
+  background-color: #201d1dff; }
 
-.twitch{
-    color: purple;
-}
+.twitch {
+  color: purple; }
 
-.btn-twitch{
-    color: purple;
-}
+.btn-twitch {
+  color: purple; }
 
-.card-text{
-    color: #0892d0;
-}
+.card-text {
+  color: #0892d0;
+  font-size: 18px; }
 
 .platPic {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px; }
+
+.speedrunList {
+  color: #0892d0; }
+
+.platinum {
+  margin-right: 215px; }
+
+.heartGold {
+  margin-right: 200px; }
+
+.heartGoldPic {
+  width: 100px;
+  height: 100px; }
+
+.gameListWidth {
+  border: 500px; }
+
+#familyPic{
+  height: 200px;
 }
 
-.speedrunList{
-    color: #0892d0;
-}
-
-.platinum{
-    margin-right: 215px;
-}
-
-.heartGold{
-    margin-right: 200px;
-}
-
-.heartGoldPic{
-    width: 100px;
-    height: 100px;
-}
-
-.gameListWidth{
-    border: 500px;
-}
-
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.5);
+.responsive{
+  width: 100%;
+  height: auto;
 }

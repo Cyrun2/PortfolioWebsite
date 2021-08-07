@@ -1,0 +1,85 @@
+/* CSS HEX 
+--eerie-black: #201d1dff;
+--black-bean: #361707ff;
+--barn-red: #7a0000ff;
+--rich-black-fogra-39: #080808ff; 
+*/
+
+$color-background: #201d1d;
+$color-breadcrumb:#361707;
+$color-red:#7a0000;
+$lighterDark:#080808;
+$white:#ffffff;
+
+.jumbotron {
+    margin: 0;
+    padding: 20px;
+    background-color: $color-background;
+}
+
+.title{
+    color: $white;
+}
+
+.subtext{
+    color: $white; 
+}
+
+body{
+    background-color:#080808ff;
+}
+
+.home{
+    color: grey;
+}
+
+.breadcrumb{
+    background-color: #361707ff;
+}
+
+.breadcrumb-item a{
+    color: white;
+}
+
+.card {
+    background-color: #201d1dff;
+}
+
+.twitch{
+    color: purple;
+}
+
+.btn-twitch{
+    color: purple;
+}
+
+.card-text{
+    color: #0892d0;
+    font-size: 18px;
+}
+
+.platPic {
+    width: 100px;
+    height: 100px;
+}
+
+.speedrunList{
+    color: #0892d0;
+}
+
+.platinum{
+    margin-right: 215px;
+}
+
+.heartGold{
+    margin-right: 200px;
+}
+
+.heartGoldPic{
+    width: 100px;
+    height: 100px;
+}
+
+.gameListWidth{
+    border: 500px;
+}
